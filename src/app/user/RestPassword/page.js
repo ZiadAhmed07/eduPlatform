@@ -16,7 +16,7 @@ export default function RestPassword() {
     const [seconds, setSeconds] = useState(60);
     const [isCounting, setIsCounting] = useState(false);
     const [loader , setLoader] = useState(false)
-    const getEmail = localStorage.getItem('email')
+    const getEmail = getCookie('email')
     const [ passCon , setPassCon] = useState('')
     const router = useRouter()
 

@@ -53,7 +53,7 @@ export default function SendEmail() {
             if (res.data.message == "Validation errors") {
                 return toast.warn('لا يوجد حساب بهذا البريد')
             } else {
-                localStorage.setItem('email', data)
+                setCookie('email',data)
                 router.replace('/user/RestPassword')
                 return toast.success('تم ارسال رمز الى البريد الالكترونى')
             }
