@@ -1,0 +1,4 @@
+framer-motion
+react-toastify
+top-loader
+axios

@@ -1,0 +1,1 @@
+export const Domin = 'https://learning.zaha-script.net/api'
