@@ -18,7 +18,10 @@
     "nextjs-toploader": "^1.6.12",
     "react": "^18",
     "react-dom": "^18",
-    "react-toastify": "^10.0.5"
+    "react-dropzone": "^14.2.3",
+    "react-particles": "^2.12.2",
+    "react-toastify": "^10.0.5",
+    "tsparticles-slim": "^2.12.0"
   },
   "devDependencies": {
     "postcss": "^8",

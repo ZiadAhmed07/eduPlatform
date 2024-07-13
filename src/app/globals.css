@@ -21,25 +21,26 @@ body{
   scroll-behavior: smooth;
 }
 
+
 .ButtonToTop{
   animation: ButtonToTop 1s;
 }
 
-.RightToLeftD05{
+.LeftToRightD05{
   animation: RightToLeft 1s;
   animation-delay: 0.5s;
   animation-fill-mode: backwards;
   position: relative;
 }
 
-.RightToLeftD07{
+.LeftToRightD07{
   animation: RightToLeft 1s;
   animation-delay: 0.7s;
   animation-fill-mode: backwards;
   position: relative;
 }
 
-.RightToLeftD09{
+.LeftToRightD09{
   animation: RightToLeft 1s;
   animation-delay: 0.9s;
   animation-fill-mode: backwards;
@@ -58,8 +59,8 @@ body{
 }
 
 @keyframes RightToLeft{
-  0%{ right: -200%; }
-  100%{ right: 0px; }
+  0%{ left: -200%; }
+  100%{ left: 0px; }
 }
 
 @keyframes ButtonToTop{
