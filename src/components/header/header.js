@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function Header() {
     return (
-        <div className="w-full h-[70px] z-50 absolute top-0 flex justify-between px-10">
+        <div className="w-full h-[70px] z-50 absolute top-0 flex justify-between px-10 max-sm:px-4">
             <div className="flex gap-6 items-center max-md:hidden">
                 <Link href={"/auth"} className="flex gap-4 px-8 py-2 rounded-md transition bg-sky-500 hover:bg-sky-600 text-sky-50 h-fit items-center">
                     <p>انشاء حساب</p>

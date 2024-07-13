@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function page() {
     return (
         <div>
-            <section className="w-full h-screen max-h-[800px] overflow-hidden">
+            <section className="w-full h-screen max-h-[900px] overflow-hidden">
                 <div className="w-full h-full absolute -z-50 bg-gray-200 dark:bg-gray-900"></div>
                 <BGparticles />
                 <div className="flex justify-center gap-20 h-full max-md:flex-col max-md:items-center">
